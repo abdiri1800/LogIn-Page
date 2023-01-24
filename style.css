@@ -1,0 +1,199 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+ @media screen and (min-width: 544px)  {
+    body{
+        font-family: Roboto,  sans-serif;
+    background-image: url("https://th.bing.com/th/id/R.0c5513b76a55810bd803fcdfc9b1002e?rik=%2b5NH6AfDrZh5tA&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+ }
+ body{
+    font-family: Roboto,  sans-serif;
+    background-image: url("https://th.bing.com/th/id/R.0c5513b76a55810bd803fcdfc9b1002e?rik=%2b5NH6AfDrZh5tA&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+.form-box  {
+    /* width: 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(248, 228, 228);
+    border-radius: 0.5rem;
+    width: 25rem;
+    box-shadow: 0px 8px 0px black;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.username-label{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.username1 #username{
+    /* margin-bottom: 10rem; */
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-width: 1px;
+}
+.username12 #username1{
+    /* margin-bottom: 10rem; */
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-width: 1px;
+}
+.username13 #username2{
+    /* margin-bottom: 10rem; */
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-width: 1px;
+}
+.username14 #username3{
+    /* margin-bottom: 10rem; */
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-width: 1px;
+}
+.username12 #username10{
+    /* margin-bottom: 10rem; */
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-width: 1px;
+}
+.form{
+    margin-top: 1rem;
+}
+.body{
+    background-color: rgb(238, 181, 74);
+}
+#exclamation{
+    float: right;
+    color: red;
+}
+.heading{
+    background-color: rgb(124, 83, 7);
+    height: 2.8rem;
+    width: 100%;
+    
+    margin-top: 0px;
+    color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.heading div{
+    margin-top: 5px;
+}
+.success{
+    
+        /* color: red;
+        visibility: hidden; */
+        font-size: 0.75rem;
+        color: green;
+        margin-bottom: 1rem;
+        height: 0.7rem;
+        position: absolute;
+        
+}
+.error-message{
+    position: relative;
+/* color: red;
+visibility: hidden; */
+font-size: 0.75rem;
+color: red;
+margin-bottom: 1rem;
+height: 0.7rem;
+}
+.error-message3{
+    position: relative;
+/* color: red;
+visibility: hidden; */
+font-size: 0.75rem;
+color: red;
+margin-bottom: 1rem;
+height: 0.7rem;
+}
+.error-message1{
+    position: relative;
+/* color: red;
+visibility: hidden; */
+font-size: 0.75rem;
+color: red;
+margin-bottom: 1rem;
+height: 0.7rem;
+}
+.error-message4{
+    position: relative;
+/* color: red;
+visibility: hidden; */
+font-size: 0.75rem;
+color: red;
+margin-bottom: 1rem;
+height: 0.7rem;
+}
+input:focus{
+    outline: 0;
+}
+.valid{
+    border-color: rgb(2, 245, 2);
+}
+.invalid{
+    border: 1px solid red;
+    /* border-color: red; */
+}
+.input-success{
+    border-color: rgb(2, 245, 2);
+}
+.input-error{
+    border: 1px solid red;
+    /* border-color: red; */
+}
+.input-error1{
+    border: 1px solid red;
+    /* border-color: red; */
+}
+.username1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.username12{
+    display: flex;
+    flex-direction: column;
+    
+}
+.button{
+    height: 2rem;
+    background-color: rgb(238, 181, 74);
+    border: none;
+    width: 100%;
+    border-radius: .3rem;
+    color: black;
+    font-weight: 600;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
